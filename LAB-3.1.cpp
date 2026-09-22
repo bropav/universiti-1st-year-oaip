@@ -41,7 +41,15 @@ int main () // заголовок функции main
     
     P = first_gran + second_gran + therd_gran + four_gran;
     
-    std::cout << "периметр равен "  << P << std::endl;    
+    std::cout << "периметр равен "  << P << std::endl;   
+
+    char x;
+
+    /*std::cin.get(x);
+    std::cin.get();*/
+    
+    system("pause");
+    //std::cin.get();
     return 0;   
 }         
 // успешное завершение программы
