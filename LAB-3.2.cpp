@@ -34,7 +34,7 @@ int main () // заголовок функции main
     if (Mi > 59)
     {
         Mi = Mi % 60;
-        Hi += 1;
+        Hi += Mi / 60;
     }
 
     Si = S + s;
@@ -42,7 +42,7 @@ int main () // заголовок функции main
     if (Si > 59)
     {
         Si = Si % 60;
-        Mi += 1;
+        Mi += Si / 60;
     }
 
     std::cout << "время сейчас "  << Hi << ":" << Mi << ":" << Si << std::endl;   
